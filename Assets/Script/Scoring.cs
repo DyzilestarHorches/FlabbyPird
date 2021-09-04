@@ -7,7 +7,8 @@ public class Scoring : MonoBehaviour
 {
     public int score;
     public int highscore;
-    public Text display_score, display_highscore;
+    private Text display_score, display_highscore;
+    private GameObject canvas;
    
     private void Awake()
     {
@@ -17,6 +18,9 @@ public class Scoring : MonoBehaviour
     void Start()
     {
         score = 0;
+        canvas = GameObject.Find("Canvas");
+        display_score = canvas.transform.GetChild(0).GetComponent<Text>();
+        display_highscore = canvas.transform.GetChild(2).GetChild(3).GetComponent<Text>();
     }
 
     // Update is called once per frame

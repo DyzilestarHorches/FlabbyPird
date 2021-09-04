@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DevAccountEmail: ngbahoch@gmail.com
   DevAccountToken: jpsitc8xu8i13171nu9yaq5xxs3xd8c7k5cppid81z3xmumt97x3cye9oypw5dzh55pcq5y3ez7fp3sedz5i4eoz3ti9sc7j9uutngu976u96esha4w98me7dxoun476hg9g9177gwqfhnggga1od9b7rqfq63rfeafni1r6kkmyyhbo9p38grxurbjezbzcukrc6ymd
-  SelectedStudio: 
+  SelectedStudio: Omega GameDev
   SdkPath: Assets/PlayFabSDK
   EdExPath: 
   LocalCloudScriptPath: 
   PanelIsShown: 0
-  curMainMenuIdx: 1
-  curSubMenuIdx: 2
+  curMainMenuIdx: 2
+  curSubMenuIdx: 0
