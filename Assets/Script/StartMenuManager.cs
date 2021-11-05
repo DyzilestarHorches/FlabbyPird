@@ -6,25 +6,25 @@ using UnityEngine.UI;
 
 public class StartMenuManager : MonoBehaviour
 {
-    public GameObject leaderboard;
+    [SerializeField] private GameObject shop;
+
+    private void Awake()
+    {
+        shop.SetActive(false);
+    }
+
     public void StartGame()
     {
         SceneManager.LoadScene("PlayingScene");
     }
 
-    public void OpenLeaderboard()
+    public void OpenShop()
     {
-        leaderboard.SetActive(true);
-        Loadleaderboard();
+        shop.SetActive(true);
     }
 
-    void Loadleaderboard()
+    public void CloseShop()
     {
-
-    }
-
-    public void CloseLeaderboard()
-    {
-        leaderboard.SetActive(false);
+        shop.SetActive(false);
     }
 }
